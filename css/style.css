@@ -454,6 +454,12 @@ p {
 .brands__img {
 	display: block;
 	max-width: 100%;
+	object-fit: cover;
+}
+
+.brands__item {
+	height: 86px;
+	overflow: hidden;
 }
 
 /* --------- START --------- */
@@ -911,8 +917,12 @@ p {
 
 	.header__menu-open .menu__item {
 		margin-right: 0;
-		padding: 10px;
+		padding: 15px;
 		font-weight: 700;
+	}
+
+	.header__menu-open .menu__link {
+		font-size: 24px;
 	}
 
 	.promo {
