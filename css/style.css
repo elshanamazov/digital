@@ -26,6 +26,10 @@ p {
 	margin: 0;
 }
 
+.body--lock {
+	overflow: hidden;
+}
+
 .container {
 	max-width: 1230px;
 	margin: 0 auto;
@@ -460,6 +464,9 @@ p {
 .brands__item {
 	height: 86px;
 	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /* --------- START --------- */
@@ -884,7 +891,7 @@ p {
 	.header__menu-open {
 		position: fixed;
 		z-index: 22;
-		height: 50%;
+		height: 100%;
 		width: 100%;
 	}
 
